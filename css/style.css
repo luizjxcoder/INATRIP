@@ -1,0 +1,8 @@
+body {
+  padding-top: 75px;
+}
+
+.box-shadow {
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5),
+  0 4px 4px 0 rgba(0, 0, 0, 0.5);
+}
