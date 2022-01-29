@@ -2,7 +2,7 @@
 <html>
 
 <head>
-   <title>Caravan - Inscricao</title>
+   <title>INATRIP - Inscrição</title>
 
    <meta charset="utf-8">
    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -14,7 +14,7 @@
 
 <body>
 
-   <!--  Modal   -->
+   <!-- INÍCIO MODAL   -->
    <div class="modal fade" id="modalLogin" tabindex="-1" role="dialog" aria-labelledby="modalLoginTitulo"
       aria-hidden="true">
       <div class="modal-dialog" role="document">
@@ -26,6 +26,7 @@
                </button>
             </div>
             <div class="modal-body">
+
                <form>
                   <div class="form-group">
                      <label for="loginEmail">Email</label>
@@ -35,18 +36,20 @@
                      <label for="loginSenha">Senha</label>
                      <input type="password" class="form-control" id="loginSenha">
                   </div>
-                  <button type="submit" class="btn btn-primary">Entrar na Conta</button>
-                  <small class="form-text text-muted">Esqueceu a senha? <a href="#">Clique aqui</a>.</small>
+                  <button type="submit" class="btn btn-success">Entrar na Conta</button>
+                  <small class="form-text text-muted">Esqueceu a senha? <a href="#">Clique
+                        aqui</a>.</small>
                </form>
             </div>
          </div>
       </div>
    </div>
-   <!-- Fecha Modal  -->
+   <!-- FIM MODAL   -->
 
+   <!-- INÍCIO MENU -->
    <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top py-3 box-shadow">
       <a href="index.html" class="navbar-brand">
-         <img src="img/caravan.svg" alt="Caravan">
+         <img src="img/logo.svg" alt="Caravan">
       </a>
 
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -61,8 +64,10 @@
                   aria-haspopup="true" aria-expanded="false">Locais</a>
                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                   <a class="dropdown-item" href="local.html">California</a>
-                  <a class="dropdown-item" href="local.html">Paris</a>
-                  <a class="dropdown-item" href="local.html">Dublin</a>
+                  <a class="dropdown-item" href="local.html">Inglaterra</a>
+                  <a class="dropdown-item" href="local.html">Peru</a>
+                  <a class="dropdown-item" href="local.html">Noruega</a>
+                  <a class="dropdown-item" href="local.html">Cancun</a>
                </div>
             </li>
             <li class="nav-item">
@@ -75,7 +80,7 @@
                <a class="nav-link" href="#" data-toggle="modal" data-target="#modalLogin">Login</a>
             </li>
             <li class="nav-item">
-               <a class="btn btn-outline-primary ml-md-2" href="inscricao.html">Inscreva-se</a>
+               <a class="btn btn-outline-success ml-md-2" href="inscricao.html">Inscreva-se</a>
             </li>
          </ul>
       </div>
@@ -84,7 +89,7 @@
    <section class="container">
       <div class="my-5 text-center">
          <span class="h6 d-block">PROGRAME A VIAGEM DO SEU SONHO</span>
-         <h1 class="display-4 text-primary">INSCREVA-SE</h1>
+         <h1 class="display-4 text-success">INSCREVA-SE</h1>
       </div>
       <div class="row">
          <form class="col-lg-6" action="">
@@ -131,7 +136,7 @@
                </div>
             </div>
             <div class="bg-light rounded box-shadow p-3 form-group">
-               <h2 class="h6 text-primary">FORMA DE PAGAMENTO</h2>
+               <h2 class="h6 text-success">FORMA DE PAGAMENTO</h2>
                <nav class="nav btn-group mb-3" id="formaPagamento" role="tablist">
                   <button type="button" class="btn btn-secondary active btn-sm" id="nav-cartao-tab" data-toggle="tab"
                      href="#nav-cartao" role="tab" aria-controls="nav-cartao" aria-selected="true">Cartão de
@@ -189,16 +194,16 @@
             <div class="form-check">
                <label class="form-check-label">
                   <input type="checkbox" class="form-check-input">
-                  Concordo com os <a href="#">Termos e Condições</a>.
+                  Concordo com os <a class="text-success" href="#">Termos e Condições</a>.
                </label>
             </div>
 
-            <button type="submit" class="btn btn-primary btn-lg">Contratar Plano</button>
+            <button type="submit" class="btn btn-success btn-lg">Contratar Plano</button>
 
          </form>
 
          <div class="col-lg-5 mx-auto order-first order-lg-1 mb-5">
-            <h2 class="h6 text-primary">PLANO ESCOLHIDO</h2>
+            <h2 class="h6 text-success">PLANO ESCOLHIDO</h2>
             <div class="bg-light rounded p-4 box-shadow">
                <h2>Gold</h2>
                <ul class="lista-plano list-unstyled">
@@ -233,17 +238,17 @@
             <div class="col-md-3 col-6">
                <h4 class="h6">PÁGINAS</h4>
                <ul class="list-unstyled">
-                  <li><a href="planos.html">Planos</a></li>
-                  <li><a href="contato.html">Contato</a></li>
-                  <li><a href="inscricao.html">Inscreva-se</a></li>
+                  <li><a class="text-success" href="planos.html">Planos</a></li>
+                  <li><a class="text-success" href="contato.html">Contato</a></li>
+                  <li><a class="text-success" href="inscricao.html">Inscreva-se</a></li>
                </ul>
             </div>
             <div class="col-md-3 col-6">
                <h4 class="h6">LOCAIS</h4>
                <ul class="list-unstyled">
-                  <li><a href="local.html">California</a></li>
-                  <li><a href="local.html">Paris</a></li>
-                  <li><a href="local.html">Dublin</a></li>
+                  <li><a class="text-success" href="local.html">California</a></li>
+                  <li><a class="text-success" href="local.html">Paris</a></li>
+                  <li><a class="text-success" href="local.html">Dublin</a></li>
                </ul>
             </div>
             <div class="col-md-4">
@@ -267,8 +272,8 @@
             </div>
          </div>
       </div>
-      <div class="bg-primary text-center py-3">
-         <p class="mb-0">Caravan © 2017. Alguns direitos reservados.</p>
+      <div class="bg-success text-center py-3">
+         <p class="mb-0">INATRIP © 2022. Alguns direitos reservados | JXCoder Development.</p>
       </div>
    </footer>
 
