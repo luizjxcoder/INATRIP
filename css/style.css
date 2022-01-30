@@ -6,6 +6,11 @@ body {
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5), 0 4px 4px 0 rgba(0, 0, 0, 0.5);
 }
 
+.navbar-brand {
+  margin-top: -15px;
+  margin-bottom: -15px;
+}
+
 /*imagem de fundo do blockquote*/
 #home-quote {
   background: url("../img/estrada.jpg") center center;
